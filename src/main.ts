@@ -3,6 +3,8 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
+import { LoggerModule, NgxLoggerLevel } from 'ngx-logger';
+import { RouterModule, Routes } from '@angular/router';
 
 if (environment.production) {
   enableProdMode();
